@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titre de la page -->
+    <title>ETS Diop – Vente de pneus à Mbour</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Description pour Google -->
+    <meta name="description" content="ETS Diop vous propose la vente de pneus neufs et d'occasions, toutes dimensions, à Mbour. Découvrez nos services de livraison et montage de pneus.">
+
+    <!-- Mots-clés (optionnel) -->
+    <meta name="keywords" content="pneu, pneus Mbour, vente pneus, réparation pneus, pneu 4x4, pneu camion, garage Mbour">
+
+    <!-- Auteur -->
+    <meta name="author" content="ETS Diop et Fils">
+
+    <!-- Pour réseaux sociaux (Open Graph) -->
+    <meta property="og:title" content="ETS Diop et fils – Vente de pneus à Mbour" />
+    <meta property="og:description" content="Vente de pneus et services de montage et réparation à Mbour." />
+    <meta property="og:type" content="website" />
+
+    <!-- Icône onglet navigateur -->
+    <link rel="icon" href="img/pneu1.jpeg" type="image/jpeg" />
+    
+</head>
+<body>
+
+    <header> 
+        <div class="top-bar">
+            <span class="bi bi-telephone-fill">📞 +221 78 544 61 12</span>
+            <span><b>ETS DIOP ET FILS</b></span>
+
+            <!-- Bouton hamburger (mobile) -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <script>
+            //Fonction pour affichage et fermeture du menu sur petit ecran
+                const toggleBtn = document.getElementById('toggle-sidebar');
+                const sidebar = document.getElementById('sidebar');
+
+                toggleBtn.addEventListener('click', () => {
+                    sidebar.classList.toggle('open');
+                });
+                    
+                function toggleMenu() {
+                    document.getElementById("menu").classList.toggle("show");
+                }
+
+
+            </script>
+
+            <!-- Menu navigation -->
+            <div class="nav-links" id="menu">
+                <span><a href="#index">Accueil</a></span>
+                <span><a href="#produits">Nos pneus</a></span>
+                <span><a href="#services">Nos services</a></span>
+                <span><a href="#trouver">Où nous trouver</a></span>
+                <span><a href="#contact">Contact</a></span>
+            </div>
+        </div>
+
+        <div class="hero" id="index">
+            <h1>Trouvez les pneus qu’il vous faut : neufs ou d’occasion, toutes marques, toutes dimensions, livrés partout.</h1>
+            <img src="img/IMG0.jpg" alt="Pneu" />
+        </div>
+    </header>
+
+    
+    <!-- Conteneur latéral -->
+    <div class="page-wrapper">
+
+        <!-- Colonne gauche -->
+        <div class="bande-gauche">
+
+            <!--Catalogue des pneus -->
+          <div id="produits">
+            <h1>Nos pneus</h2> <br><br>
+                <!-- ===================== CITADINES & COMPACTES ===================== -->
+              <div class="categorie">
+                <h2><b>🚗 Citadines & Compactes</b></h2>
+                <div class="pneus">
+                  <!-- R13 -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>155R13</h3><p>Petites citadines</p><h6>Économiques, confortables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>165R13</h3><p>Petites citadines</p><h6>Bon confort</h6></div>
+                  
+                  <!-- R14 -->  
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>165R14</h3><p>Petites voitures</p><h6>Confort urbain</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>165/65R14</h3><p>Citadines modernes</p><h6>Usage urbain</h6></div>
+                  
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>175R14</h3><p>Petites voitures</p><h6>Usage quotidien</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>175/70R14</h3><p>Citadines</p><h6>Bonne tenue de route</h6></div>
+                  
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185R14</h3><p>Compacts</p><h6>Bon rapport qualité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185/65R14</h3><p>Compacts</p><h6>Économiques</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185/70R14</h3><p>Compacts</p><h6>Équilibrés</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185/75R14</h3><p>Citadines/compacts</p><h6>Durables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185/80R14</h3><p>Citadines</p><h6>Économiques</h6></div>
+                                    
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>195R14</h3><p>Citadines</p><h6>Bonne stabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>195/65R14</h3><p>Compacts</p><h6>Confort & adhérence</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>195/70R14</h3><p>Compacts</p><h6>Durables</h6></div>
+
+                  <!-- R15 (compacts/citadines) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185/65R15</h3><p>Compacts</p><h6>Usage polyvalent</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>195/60R15</h3><p>Compacts</p><h6>Bonne adhérence</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>195/65R15</h3><p>Compacts/berlines</p><h6>Usage polyvalent</h6></div>
+                </div>
+              </div> <br><br>
+
+              <!-- ===================== BERLINES & ROUTIÈRES ===================== -->
+              <div class="categorie">
+                <h2><b>🚘Berlines & Routières</b></h2>
+                <div class="pneus">                  
+                    
+                  <!-- R15 (berlines) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>185/80R15</h3><p>Berlines</p><h6>Usage courant</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>195/75R15</h3><p>Berlines</p><h6>Économiques</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/65R15</h3><p>Berlines</p><h6>Usage courant</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/70R15</h3><p>Berlines</p><h6>Durables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>215/65R15</h3><p>Berlines</p><h6>Stabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/70R15</h3><p>Grandes berlines</p><h6>Robustesse</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/70R15</h3><p>Grandes routières</p><h6>Stabilité</h6></div>
+                                    
+                  <!-- R16 (berlines) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/55R16</h3><p>Berlines</p><h6>Confort & performance</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/55R16</h3><p>Berlines</p><h6>Équilibre route</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/65R16</h3><p>Berlines</p><h6>Confort</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>215/55R16</h3><p>Berlines</p><h6>Performants</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/55R16</h3><p>Berlines</p><h6>Stables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/60R16</h3><p>Routières</p><h6>Confort</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/65R16</h3><p>Grandes routières</p><h6>Bonne adhérence</h6></div>
+                  
+                  <!-- R17 (berlines) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/50R17</h3><p>Berlines sportives</p><h6>Haute performance</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/45R17</h3><p>Sportives</p><h6>Look sportif</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/50R17</h3><p>Routières</p><h6>Stables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/55R17</h3><p>Berlines</p><h6>Confort</h6></div>
+                </div>
+              </div><br><br>
+
+              <!-- ===================== SUV & 4x4 ===================== -->
+              <div class="categorie"> <br>
+                <h2><b>🚙 SUV & 4x4</b></h2>
+                <div class="pneus">
+
+                  <!-- R16 (SUV) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>215/65R16</h3><p>SUV compacts</p><h6>Robustes</h6></div>                  
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>215/85R16</h3><p>4x4</p><h6>Tout-terrain</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/70R16</h3><p>SUV</p><h6>Fiables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/85R16</h3><p>4x4</p><h6>Robustes</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/60R16</h3><p>SUV</p><h6>Bonne adhérence</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/65R16</h3><p>SUV</p><h6>Stabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/70R16</h3><p>SUV</p><h6>Polyvalents</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>255/70R16</h3><p>4x4</p><h6>Robustesse</h6></div>
+
+                  <!-- R17 (SUV) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>215/85R17</h3><p>4x4</p><h6>Charge élevée</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/65R17</h3><p>SUV compacts</p><h6>Stabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/55R17</h3><p>SUV</p><h6>Bonne route</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>245/55R17</h3><p>SUV</p><h6>Confort</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>255/55R17</h3><p>SUV</p><h6>Bonne adhérence</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>255/65R17</h3><p>SUV</p><h6>Robustesse</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>265/70R17</h3><p>Pick-up</p><h6>Tout-terrain</h6></div>
+                                    
+                  <!-- R18 (SUV) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>215/55R18</h3><p>SUV modernes</p><h6>Bonne route</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/55R18</h3><p>SUV</p><h6>Confort</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>235/60R18</h3><p>SUV</p><h6>Stabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>265/65R18</h3><p>4x4</p><h6>Robustesse</h6></div>
+                </div>
+              </div><br><br>
+
+              <!-- ===================== UTILITAIRES & POIDS LOURDS ===================== -->
+              <div class="categorie">
+                <h2><b>🚚Camions & Poids Lourds</b></h2>
+                <div class="pneus">
+
+                  <!-- R17.5 (Camions) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>205/80R17.5</h3><p>Utilitaires</p><h6>Fiabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/70R17.5</h3><p>Utilitaires</p><h6>Durabilité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/75R17.5</h3><p>Utilitaires</p><h6>Bonne charge</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>225/85R17.5</h3><p>Utilitaires</p><h6>Robustesse</h6></div>
+
+                  <!-- R19.5 (Camions) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>245/70R19.5</h3><p>Camions légers</p><h6>Durables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>265/70R19.5</h3><p>Camions légers</p><h6>Stables</h6></div>
+                                    
+                  <!-- R22.5 (Camions) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>275/70R22.5</h3><p>Poids lourds</p><h6>Haute capacité</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>295/80R22.5</h3><p>Camions</p><h6>Robustesse</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>315/80R22.5</h3><p>Poids lourds</p><h6>Endurance</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>385/65R22.5</h3><p>Semi-remorques</p><h6>Charge éleve</h6></div>
+                                    
+                  <!-- R22.5 (Camions) -->
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>11R22.5</h3><p>Poids lourds</p><h6>Durables</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>12R22.5</h3><p>Poids lourds</p><h6>Performants</h6></div>
+                  <div class="card"><img src="img/pneu1.jpeg" alt="Pneu"><h3>13R22.5</h3><p>Poids lourds</p><h6>Robustes</h6></div>
+                </div>
+              </div>
+
+            
+
+          
+            <!-- Les Services --> <br><br>
+            <div id="services">
+                <h1>Nos services</h2>
+                <div class="services" > 
+
+                    <div class="card">
+                        <div class="icon">&#10004;</div> 
+                        <p>Vente de pneus</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon">&#128757;</div>
+                        <p>Livraison de pneus</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon">&#11088;</div> 
+                        <p>Installation de pneus</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon">&#128736;</div>
+                        <p>Réparation de pneus</p>
+                    </div>   
+                </div>
+            </div> <br><br>
+
+            
+            <h1>Où nous trouver </h2>
+            <div id="trouver">  
+                <div class="localisation" >
+                    <!-- Ajouter Leaflet CSS et JS -->
+                    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+                    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+                    <!-- Conteneur de la carte -->
+                    <div id="map" ></div>
+                </div>
+
+                
+                <div class="informations"><br><br>
+                    <p> <b>📍ETS Diop & Fils - Gare routières Mbour </b> <br><i>À l'intérieur du Gare routières de Mbour.</i> <br>8h00 - 19h00 (7j/7)
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=14.425777,-16.971625" target="_blank" style="color: #16365c; text-decoration: underline;">
+                            Obtenir l'itinéraire
+                        </a>
+                    </p>
+                    <br><br><br>
+                    <p> <b>📍ETS Diop & Fils - Grand Mbour </b> <br><i>Situé en face du stade Caroline Faye - Mbour.</i> <br>8h00 - 19h00 (7j/7)
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=14.431125,-16.972391" target="_blank" style="color: #16365c; text-decoration: underline;">
+                            Obtenir l'itinéraire
+                        </a> 
+                    </p>
+                    <br><br><br>
+                    <p> <b>📍ETS Diop & Fils - Saly Douté </b> <br><i>Sur la route principal de Kaolack avant keur Balla - Mbour.</i> <br>8h00 - 19h00 (7j/7)
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=14.4529,-17.0207" target="_blank" style="color: #16365c; text-decoration: underline;">
+                            Obtenir l'itinéraire
+                        </a>
+                    </p>
+                    <br><br>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SECTION INFO 3 BLOCS -->
+        <section class="info-section" id="contact">
+            <div class="info-card">
+                <h3>À propos</h3>
+                <p>
+                ETS Diop & Fils, experts en vente de pneus.  
+                Nous proposons toutes marques et modèles adaptés à vos besoins, des pneus neufs et d'occasions.
+                </p>
+            </div>
+
+            <div class="info-card">
+                <h3>Contact</h3>
+                <p>📞 +221 78 544 61 12</p>
+                <p>📞 +221 77 693 52 91 </p>
+                <p>📞 +221 76 787 73 58 </p>
+                <p>✉️ ndiawardiop@hotmail.com</p>
+                <p>⏰ Lundi - Dimanche : 08h - 19h</p>
+            </div>
+
+            <div class="info-card">
+                <div class="gallery mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <video id="mavideo" muted playsinline>
+                                <source src="video/video1.mp4" type="video/mp4">
+                                Votre navigateur ne supporte pas la lecture vidéo.
+                            </video>
+                            <button id="playPauseBtn" class="video-btn">▶️</button>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            
+            <!-- JS pour gérer le bontou play/pause-->
+            <script>
+                const video = document.getElementById("mavideo");
+                const playPauseBtn = document.getElementById("playPauseBtn");
+
+                playPauseBtn.addEventListener("click", () => {
+                    if (video.paused) {
+                        video.play();
+                        playPauseBtn.textContent = "⏸️";
+                    } else {
+                        video.pause();
+                        playPauseBtn.textContent = "▶️";
+                    }
+                });
+
+            </script>
+            <!-- Swiper JS --> 
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+            <!-- Initialisation-->
+            <script>
+
+                <!-- Script Leaflet -->
+                // 1. Initialiser la carte
+                var map = L.map('map').setView([14.4341, -17.0056], 13); // Coordonnées de Mbour
+
+                // 2. Ajouter la couche OpenStreetMap
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+
+                // 3. Ajouter les 3 marqueurs
+                    L.marker([14.425777, -16.971625]).addTo(map)
+                        .bindPopup("<b>ETS Diop & Fils - Gare Routières de Mbour</b><br>A l'intérieur du Gare routières - Mbour").openPopup();
+
+                    L.marker([14.431125, -16.972391]).addTo(map)
+                        .bindPopup("<b>ETS Diop & Fils - Grand Mbour</b><br>En face Stade Caroline Faye - Mbour");
+
+                    L.marker([14.4500, -17.0200]).addTo(map)
+                        .bindPopup("<b>ETS Diop & Fils - Saly Douté </b><br>Sur la route de kaolack avant Keur Balla - Mbour");
+                
+
+
+
+                const swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1, // Affiche 1 seule image
+                loop: true,        // Boucle infinie
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 4000, 
+                    disableOnInteraction: false,
+                },
+                });
+            </script>
+        </section>
+
+
+        
+
+        <section id="avis" class="avis-section">
+            <h2>🗣 Avis de nos clients</h2>
+            <p class="subtitle">Partagez votre expérience avec ETS Diop & Fils</p>
+
+            <form id="avisForm" class="avis-form">
+                <input type="text" id="nom" placeholder="Votre nom" required>
+                <select id="note" required>
+                <option value="">Notez notre service ⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="1">⭐</option>
+                </select>
+                <textarea id="message" placeholder="Votre commentaire..." required></textarea>
+                <button type="submit">Envoyer mon avis</button>
+            </form>
+
+            <div id="listeAvis" class="liste-avis"></div>
+        </section>
+        
+    </div>
+
+
+    <footer>
+        <p>&copy; 2025 ETS DIOP & FILS Vente de pneus toutes dimensions . Tous droits réservés.</p>
+    </footer>
+
+
+    <!-- Bouton WhatsApp flottant -->
+    <a href="https://wa.me/221785446112?text=Bonjour%20ETS%20Diop%20&%20Fils%20!%20Je%20souhaite%20plus%20d'informations%20sur%20vos%20pneus."
+        class="whatsapp-float"
+        target="_blank"
+        aria-label="Discuter sur WhatsApp">
+     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+    </a>
+
+
+    <script type="module">
+        // --- Importation Firebase ---
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+        import { getFirestore, collection, addDoc, getDocs, query, orderBy } 
+            from "https://www.gstatic.com/firebasejs/12.3.0/firebase-firestore.js";
+
+        // --- Configuration de ton projet Firebase ---
+        const firebaseConfig = {
+            apiKey: "AIzaSyDVJGZFN_C0voQhsdz8m5jRycpGsA-a2Rs",
+            authDomain: "ets-diop-fils.firebaseapp.com",
+            projectId: "ets-diop-fils",
+            storageBucket: "ets-diop-fils.firebasestorage.app",
+            messagingSenderId: "931754290167",
+            appId: "1:931754290167:web:3cc953fa9ffa844a701cf2"
+        };
+
+        // --- Initialisation de Firebase ---
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        // --- Fonction pour afficher les étoiles ---
+        function genererEtoiles(note) {
+            let etoiles = "";
+            for (let i = 0; i < 5; i++) {
+            etoiles += i < note ? "★" : "☆";
+            }
+            return etoiles;
+        }
+
+        // --- Récupération et affichage des avis ---
+        async function afficherAvis() {
+            const avisQuery = query(collection(db, "avis"), orderBy("date", "desc"));
+            const querySnapshot = await getDocs(avisQuery);
+            const liste = document.getElementById("listeAvis");
+            liste.innerHTML = "";
+
+            querySnapshot.forEach((doc) => {
+            const avis = doc.data();
+            const date = avis.date
+                ? new Date(avis.date.seconds * 1000).toLocaleDateString("fr-FR")
+                : "";
+            const etoiles = genererEtoiles(avis.note);
+
+            liste.innerHTML += `
+                <div class="avis">
+                <strong>${avis.nom}</strong>
+                <span class="etoiles">${etoiles}</span>
+                <small>${date}</small>
+                <p>${avis.message}</p>
+                </div>`;
+            });
+        }
+
+        // --- Envoi d’un nouvel avis ---
+        document.getElementById("avisForm").addEventListener("submit", async (e) => {
+            e.preventDefault();
+            const nom = document.getElementById("nom").value;
+            const note = parseInt(document.getElementById("note").value);
+            const message = document.getElementById("message").value;
+            const date = new Date();
+
+            await addDoc(collection(db, "avis"), { nom, note, message, date });
+            e.target.reset();
+            afficherAvis();
+            alert("✅ Merci pour votre avis !");
+        });
+
+        afficherAvis();
+    </script>
+    
+
+</body>
+</html>
+    
